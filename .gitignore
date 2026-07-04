@@ -1,6 +1,12 @@
 /.venv
 /Lib
 /share
-./pyvenv.cfg
 /Include
 /Scripts
+/pyvenv.cfg
+/.claude
+/dataset
+/Original JSON files
+/runs
+cell_outputs.txt
+*.pt
