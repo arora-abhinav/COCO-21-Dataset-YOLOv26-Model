@@ -41,7 +41,7 @@ VAL_IMAGES = ROOT / "coco_images_validation"
 OUT_IMAGES = ROOT / "images"
 OUT_LABELS = ROOT / "labels"
 
-COPY_IMAGES = True
+COPY_IMAGES = False
 
 
 def ensure_dirs():
