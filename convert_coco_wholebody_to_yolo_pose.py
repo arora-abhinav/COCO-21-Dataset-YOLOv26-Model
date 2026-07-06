@@ -35,8 +35,8 @@ ROOT = Path("dataset")
 TRAIN_JSON = ROOT / "annotations" / "training_data_COCO21.json"
 VAL_JSON = ROOT / "annotations" / "validation_data_COCO21.json"
 
-TRAIN_IMAGES = ROOT / "coco_images"
-VAL_IMAGES = ROOT / "coco_images_validation"
+TRAIN_IMAGES = ROOT / "images" / "train"
+VAL_IMAGES = ROOT / "images" / "val"
 
 OUT_IMAGES = ROOT / "images"
 OUT_LABELS = ROOT / "labels"
